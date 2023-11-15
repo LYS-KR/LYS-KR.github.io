@@ -217,7 +217,10 @@ button:focus {
   }
 
   /* About */
-.majors {
+  
+
+
+  .majors {
   display: flex;
   justify-content: space-between;
   gap: 1rem;
@@ -226,14 +229,14 @@ button:focus {
 
 .major {
   background-color: var(--color-primary-variant);
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
   color: var(--color-text);
   border-radius: 1rem;
   cursor: default;
-  box-shadow: 5px 5px 0px 0px var(--color-dark-white);
+  box-shadow: 4px 4px 0px 0px var(--color-dark-white);
 }
 
-.major__icon {
+.major__icon  {
   font-size: 4rem;
   margin: 1rem 0;
   color: var(--color-accent);
@@ -245,34 +248,9 @@ button:focus {
   margin-bottom: 1rem;
 }
 
-.major:hover .major__icon {
-  transform: rotate(-15deg) scale(1.2);
-}
 
-.jobs {
-  text-align: start;
-}
 
-.job {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-bottom: 1rem;
-}
 
-.job__name {
-  color: var(--color-primary);
-}
-
-.job__period {
-  color:  var(--color-primary);
-  font-size: 0.8rem;
-}
-
-.job__img {
-  width: 35px;
-  height: 40px;
-}
 
 /* Skills */
 #skills {
@@ -428,6 +406,10 @@ button:focus {
 .project__metadata:hover {
   opacity: 0.8;
   transform: translateY(0px);
+}
+
+.project__img:visited{
+  <a href="https://www.inven.co.kr/">
 }
 
 .project__title:after {
